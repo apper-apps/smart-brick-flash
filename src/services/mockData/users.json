@@ -1,0 +1,98 @@
+[
+  {
+    "Id": 1,
+    "name": "Rajesh Singh",
+    "email": "rajesh.singh@smartbrick.com",
+    "phone": "+91 98765 43210",
+    "role": "admin",
+    "uplineId": null,
+    "joinedDate": "2023-01-15T10:00:00.000Z",
+    "isActive": true,
+    "totalSales": 25,
+    "totalEarnings": 1250000
+  },
+  {
+    "Id": 2,
+    "name": "Priya Sharma",
+    "email": "priya.sharma@smartbrick.com",
+    "phone": "+91 98765 43211",
+    "role": "member",
+    "uplineId": 1,
+    "joinedDate": "2023-03-20T14:30:00.000Z",
+    "isActive": true,
+    "totalSales": 18,
+    "totalEarnings": 720000
+  },
+  {
+    "Id": 3,
+    "name": "Amit Kumar",
+    "email": "amit.kumar@smartbrick.com",
+    "phone": "+91 98765 43212",
+    "role": "member",
+    "uplineId": 1,
+    "joinedDate": "2023-05-10T11:15:00.000Z",
+    "isActive": true,
+    "totalSales": 12,
+    "totalEarnings": 480000
+  },
+  {
+    "Id": 4,
+    "name": "Neha Patel",
+    "email": "neha.patel@smartbrick.com",
+    "phone": "+91 98765 43213",
+    "role": "sub-member",
+    "uplineId": 2,
+    "joinedDate": "2023-07-05T16:45:00.000Z",
+    "isActive": true,
+    "totalSales": 8,
+    "totalEarnings": 200000
+  },
+  {
+    "Id": 5,
+    "name": "Rahul Verma",
+    "email": "rahul.verma@smartbrick.com",
+    "phone": "+91 98765 43214",
+    "role": "sub-member",
+    "uplineId": 2,
+    "joinedDate": "2023-08-12T09:20:00.000Z",
+    "isActive": true,
+    "totalSales": 6,
+    "totalEarnings": 150000
+  },
+  {
+    "Id": 6,
+    "name": "Kavya Reddy",
+    "email": "kavya.reddy@smartbrick.com",
+    "phone": "+91 98765 43215",
+    "role": "sub-member",
+    "uplineId": 3,
+    "joinedDate": "2023-09-25T13:10:00.000Z",
+    "isActive": true,
+    "totalSales": 4,
+    "totalEarnings": 100000
+  },
+  {
+    "Id": 7,
+    "name": "Sanjay Gupta",
+    "email": "sanjay.gupta@smartbrick.com",
+    "phone": "+91 98765 43216",
+    "role": "member",
+    "uplineId": 1,
+    "joinedDate": "2023-11-08T12:30:00.000Z",
+    "isActive": true,
+    "totalSales": 3,
+    "totalEarnings": 120000
+  },
+  {
+    "Id": 8,
+    "name": "Deepika Singh",
+    "email": "deepika.singh@smartbrick.com",
+    "phone": "+91 98765 43217",
+    "role": "sub-member",
+    "uplineId": 7,
+    "joinedDate": "2023-12-15T15:45:00.000Z",
+    "isActive": true,
+    "totalSales": 2,
+    "totalEarnings": 50000
+  }
+]

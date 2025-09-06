@@ -1,0 +1,165 @@
+[
+  {
+    "Id": 1,
+    "title": "Luxury Villa in Bandra West",
+    "category": "villa",
+    "price": 42500000,
+    "location": "Bandra West, Mumbai, Maharashtra",
+    "size": "3500 sq ft",
+    "status": "available",
+    "images": [
+      "/api/placeholder/800/600",
+      "/api/placeholder/800/600",
+      "/api/placeholder/800/600"
+    ],
+    "listedBy": "Rajesh Singh",
+    "createdAt": "2024-01-10T10:30:00.000Z",
+    "description": "Stunning 4BHK villa with modern amenities, private garden, and sea view. Perfect for luxury living in prime Bandra location."
+  },
+  {
+    "Id": 2,
+    "title": "Commercial Space in Andheri East",
+    "category": "commercial",
+    "price": 18000000,
+    "location": "Andheri East, Mumbai, Maharashtra",
+    "size": "2000 sq ft",
+    "status": "under-negotiation",
+    "images": [
+      "/api/placeholder/800/600",
+      "/api/placeholder/800/600"
+    ],
+    "listedBy": "Priya Sharma",
+    "createdAt": "2024-01-08T14:20:00.000Z",
+    "description": "Prime commercial space in busy Andheri East location, ideal for offices or retail business."
+  },
+  {
+    "Id": 3,
+    "title": "2BHK Apartment in Powai",
+    "category": "apartment",
+    "price": 12500000,
+    "location": "Powai, Mumbai, Maharashtra",
+    "size": "1200 sq ft",
+    "status": "available",
+    "images": [
+      "/api/placeholder/800/600",
+      "/api/placeholder/800/600",
+      "/api/placeholder/800/600",
+      "/api/placeholder/800/600"
+    ],
+    "listedBy": "Amit Kumar",
+    "createdAt": "2024-01-05T16:45:00.000Z",
+    "description": "Modern 2BHK apartment with lake view, premium amenities, and excellent connectivity."
+  },
+  {
+    "Id": 4,
+    "title": "Industrial Land in Pune",
+    "category": "land",
+    "price": 35000000,
+    "location": "Hinjewadi, Pune, Maharashtra",
+    "size": "5000 sq ft",
+    "status": "available",
+    "images": [
+      "/api/placeholder/800/600"
+    ],
+    "listedBy": "Neha Patel",
+    "createdAt": "2024-01-03T11:15:00.000Z",
+    "description": "Prime industrial land in IT hub of Pune, perfect for warehouse or manufacturing setup."
+  },
+  {
+    "Id": 5,
+    "title": "Residential Building in Thane",
+    "category": "building",
+    "price": 85000000,
+    "location": "Kasarvadavali, Thane, Maharashtra",
+    "size": "12000 sq ft",
+    "status": "sold",
+    "images": [
+      "/api/placeholder/800/600",
+      "/api/placeholder/800/600"
+    ],
+    "listedBy": "Rajesh Singh",
+    "createdAt": "2023-12-28T09:30:00.000Z",
+    "description": "Complete residential building with 12 units, excellent rental income potential."
+  },
+  {
+    "Id": 6,
+    "title": "Penthouse in Juhu",
+    "category": "apartment",
+    "price": 95000000,
+    "location": "Juhu, Mumbai, Maharashtra",
+    "size": "4500 sq ft",
+    "status": "available",
+    "images": [
+      "/api/placeholder/800/600",
+      "/api/placeholder/800/600",
+      "/api/placeholder/800/600"
+    ],
+    "listedBy": "Rajesh Singh",
+    "createdAt": "2023-12-25T13:20:00.000Z",
+    "description": "Ultra-luxury penthouse with panoramic sea view, private terrace, and world-class amenities."
+  },
+  {
+    "Id": 7,
+    "title": "Farmhouse in Lonavala",
+    "category": "villa",
+    "price": 28000000,
+    "location": "Lonavala, Pune, Maharashtra",
+    "size": "6000 sq ft",
+    "status": "available",
+    "images": [
+      "/api/placeholder/800/600",
+      "/api/placeholder/800/600"
+    ],
+    "listedBy": "Amit Kumar",
+    "createdAt": "2023-12-20T08:45:00.000Z",
+    "description": "Serene farmhouse surrounded by hills, perfect weekend getaway with modern facilities."
+  },
+  {
+    "Id": 8,
+    "title": "Retail Shop in Colaba",
+    "category": "commercial",
+    "price": 22000000,
+    "location": "Colaba, Mumbai, Maharashtra",
+    "size": "800 sq ft",
+    "status": "rented",
+    "images": [
+      "/api/placeholder/800/600"
+    ],
+    "listedBy": "Priya Sharma",
+    "createdAt": "2023-12-18T12:10:00.000Z",
+    "description": "Prime retail space in tourist hub of Colaba, high footfall area with excellent visibility."
+  },
+  {
+    "Id": 9,
+    "title": "3BHK Flat in Vile Parle",
+    "category": "apartment",
+    "price": 16500000,
+    "location": "Vile Parle East, Mumbai, Maharashtra",
+    "size": "1800 sq ft",
+    "status": "available",
+    "images": [
+      "/api/placeholder/800/600",
+      "/api/placeholder/800/600",
+      "/api/placeholder/800/600"
+    ],
+    "listedBy": "Neha Patel",
+    "createdAt": "2023-12-15T15:30:00.000Z",
+    "description": "Spacious 3BHK flat near airport, excellent for both living and investment purposes."
+  },
+  {
+    "Id": 10,
+    "title": "Warehouse in Bhiwandi",
+    "category": "building",
+    "price": 45000000,
+    "location": "Bhiwandi, Thane, Maharashtra",
+    "size": "15000 sq ft",
+    "status": "under-negotiation",
+    "images": [
+      "/api/placeholder/800/600",
+      "/api/placeholder/800/600"
+    ],
+    "listedBy": "Rajesh Singh",
+    "createdAt": "2023-12-12T10:00:00.000Z",
+    "description": "Large warehouse facility with modern infrastructure, ideal for logistics and distribution."
+  }
+]
