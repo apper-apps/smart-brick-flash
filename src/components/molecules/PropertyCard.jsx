@@ -17,17 +17,31 @@ const PropertyCard = ({ property }) => {
 
   return (
     <div className="card-hover p-0 overflow-hidden">
-      <div className="relative">
-        <img
-          src={property.images?.[0] || "/api/placeholder/400/250"}
-          alt={property.title}
-          className="w-full h-48 object-cover"
-        />
-        <div className="absolute top-4 right-4">
-          <Badge variant={statusVariant} className="capitalize">
-            {property.status.replace("-", " ")}
-          </Badge>
+<div className="relative overflow-hidden">
+      <img
+        src={property.images?.[0] || `https://picsum.photos/400/250?random=${property.Id || Math.random()}`}
+        alt={`${property.title || 'Property'} - Real estate listing image`}
+        className="w-full h-48 object-cover transition-opacity duration-200"
+        loading="lazy"
+        onError={(e) => {
+          e.target.style.display = 'none';
+          e.target.nextSibling.style.display = 'flex';
+        }}
+      />
+      <div 
+        className="w-full h-48 bg-gradient-to-br from-surface-100 to-surface-200 items-center justify-center text-surface-500 hidden"
+        style={{ display: 'none' }}
+      >
+        <div className="text-center">
+          <ApperIcon name="Image" className="h-12 w-12 mx-auto mb-2 opacity-50" />
+          <p className="text-sm font-medium">Image unavailable</p>
         </div>
+      </div>
+<div className="absolute top-3 left-3">
+        <Badge variant={statusVariant}>
+          {property.status.replace("-", " ")}
+        </Badge>
+      </div>
         <div className="absolute bottom-4 left-4">
           <div className="bg-black bg-opacity-50 backdrop-blur-sm text-white px-3 py-1 rounded-lg">
             <span className="text-lg font-bold">{formatCurrency(property.price)}</span>
